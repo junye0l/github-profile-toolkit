@@ -37,7 +37,7 @@ export default function MarkdownCode({
     }
     // 새로운 방식: gen + starter 사용
     const gen = config.generation || "gen1";
-    const cardUrl = `https://badge-generators.vercel.app/api/pokemon?user=${encodeURIComponent(config.username)}&gen=${encodeURIComponent(gen)}&starter=${encodeURIComponent(config.chainId)}`;
+    const cardUrl = `https://github-profile-toolkit.vercel.app//api/pokemon?user=${encodeURIComponent(config.username)}&gen=${encodeURIComponent(gen)}&starter=${encodeURIComponent(config.chainId)}`;
     return `# My Pokemon\n\n<div align="center">\n  <img src="${cardUrl}" alt="My Pokemon" />\n</div>`;
   };
 
