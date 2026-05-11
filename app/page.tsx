@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>GitHub Badge Generator</h1>
+      <h1>Github Profile Toolkit</h1>
       <p className="subtitle">
         깃허브 프로필 꾸미기 편의기능 모음
       </p>

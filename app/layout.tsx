@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GitHub Badge Generator",
+  title: "Github Profile Toolkit",
   description: "깃허브 프로필 꾸미기 편의기능 모음",
 };
 
